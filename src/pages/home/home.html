@@ -7,5 +7,20 @@
 </ion-header>
 
 <ion-content padding>
- 
+    <ion-item (click)="clickImagen1()" style = background-color:#08415c>
+        <img item-start src="../assets/maroon5.jpg" height= "200px">
+        <h1 (click)="clickBiografia1()" style= color:white>Maroon 5</h1>
+        <p (click)="clickCanciones1()">Songs about Jane</p>
+        <p>2002</p>
+        
+        <ion-row (click)="clickOpinion1()">
+          <ion-col>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-half"></ion-icon>
+          </ion-col>
+        </ion-row>
+       </ion-item>
 </ion-content>
