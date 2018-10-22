@@ -6,9 +6,9 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-    <ion-item (click)="clickImagen1()" style = background-color:#08415c>
-        <img item-start src="../assets/maroon5.jpg" height= "200px">
+<ion-content style= background-color:#BDEDE0 padding>
+    <ion-item style = background-color:#08415c>
+        <img (click)="clickImagen1()" item-start src="../assets/maroon5.jpg" height= "200px">
         <h1 (click)="clickBiografia1()" style= color:white>Maroon 5</h1>
         <p (click)="clickCanciones1()">Songs about Jane</p>
         <p>2002</p>
@@ -22,5 +22,6 @@
             <ion-icon name="star-half"></ion-icon>
           </ion-col>
         </ion-row>
-       </ion-item>
+        <ion-icon style= color:white name="play"></ion-icon>
+      </ion-item>
 </ion-content>
