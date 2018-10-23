@@ -16,6 +16,10 @@ import { Disco4ImagenPage } from '../disco4-imagen/disco4-imagen';
 import { Disco4BiografiaPage } from '../disco4-biografia/disco4-biografia';
 import { Disco4CancionesPage } from '../disco4-canciones/disco4-canciones';
 import { Disco4OpinionPage } from '../disco4-opinion/disco4-opinion';
+import { Disco5ImagenPage } from '../disco5-imagen/disco5-imagen';
+import { Disco5BiografiaPage } from '../disco5-biografia/disco5-biografia';
+import { Disco5OpinionPage } from '../disco5-opinion/disco5-opinion';
+import { Disco5CancionesPage } from '../disco5-canciones/disco5-canciones';
 
 @Component({
   selector: 'page-home',
@@ -38,6 +42,10 @@ export class HomePage {
   biografia4=Disco4BiografiaPage;
   canciones4=Disco4CancionesPage;
   opinion4=Disco4OpinionPage;
+  imagen5=Disco5ImagenPage;
+  biografia5=Disco5BiografiaPage;
+  opinion5=Disco5OpinionPage;
+  canciones5=Disco5CancionesPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -97,5 +105,18 @@ export class HomePage {
   }
   clickOpinion4(){
     this.navCtrl.push(this.opinion4)
+  }
+
+  clickImagen5(){
+    this.navCtrl.push(this.imagen5)
+  }
+  clickBiografia5(){
+    this.navCtrl.push(this.biografia5)
+  }
+  clickCanciones5(){
+    this.navCtrl.push(this.canciones5)
+  }
+  clickOpinion5(){
+    this.navCtrl.push(this.opinion5)
   }
 }
