@@ -18,6 +18,10 @@ import { Disco3BiografiaPage } from '../pages/disco3-biografia/disco3-biografia'
 import { Disco3CancionesPage } from '../pages/disco3-canciones/disco3-canciones';
 import { Disco3ImagenPage } from '../pages/disco3-imagen/disco3-imagen';
 import { Disco3OpinionPage } from '../pages/disco3-opinion/disco3-opinion';
+import { Disco4BiografiaPage } from '../pages/disco4-biografia/disco4-biografia';
+import { Disco4CancionesPage } from '../pages/disco4-canciones/disco4-canciones';
+import { Disco4ImagenPage } from '../pages/disco4-imagen/disco4-imagen';
+import { Disco4OpinionPage } from '../pages/disco4-opinion/disco4-opinion';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import { Disco3OpinionPage } from '../pages/disco3-opinion/disco3-opinion';
     Disco3BiografiaPage,
     Disco3CancionesPage,
     Disco3ImagenPage,
-    Disco3OpinionPage
+    Disco3OpinionPage,
+    Disco4BiografiaPage,
+    Disco4CancionesPage,
+    Disco4ImagenPage,
+    Disco4OpinionPage
   ],
   imports: [
     BrowserModule,
@@ -55,7 +63,11 @@ import { Disco3OpinionPage } from '../pages/disco3-opinion/disco3-opinion';
     Disco3BiografiaPage,
     Disco3CancionesPage,
     Disco3ImagenPage,
-    Disco3OpinionPage
+    Disco3OpinionPage,
+    Disco4BiografiaPage,
+    Disco4CancionesPage,
+    Disco4ImagenPage,
+    Disco4OpinionPage
   ],
   providers: [
     StatusBar,
